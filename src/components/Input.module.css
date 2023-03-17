@@ -1,0 +1,34 @@
+.container {
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+  gap: 0.5rem;
+  width: 100%;
+  height: 3.375rem;
+  background: var(--gray-500);
+  border: 1px solid var(--gray-700);
+  border-radius: 8px;
+  transition: 200ms;
+}
+
+.container:focus-within {
+  outline: transparent;
+  box-shadow: 0 0 0 2px var(--purple);
+}
+
+input {
+  width: 100%;
+  line-height: var(--font-line-height);
+  background: var(--gray-500);
+  color: var(--gray-100);
+  outline: none;
+  border: none;
+}
+
+input::placeholder {
+  color: var(--gray-300);
+}
+
+input:focus {
+  outline: none;
+  }
