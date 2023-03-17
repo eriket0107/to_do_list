@@ -1,2 +1,4 @@
 # To Do List
-Project to learn typescript and practice React and CSS concepts and techniques;
+Developed to learn typescript and practice React and CSS concepts and techniques;
+
+## From Rocketseat Ignite class 01
