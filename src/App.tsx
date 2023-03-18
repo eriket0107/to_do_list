@@ -5,7 +5,7 @@ import styles from './App.module.css';
 import {Header} from './components/Header';
 import { List } from './components/List';
 
-function App() {
+export function App() {
 
 	return (<>
 		<Header />
@@ -15,5 +15,3 @@ function App() {
 	</>
 	);
 }
-
-export default App;
